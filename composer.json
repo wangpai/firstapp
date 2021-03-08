@@ -1,0 +1,26 @@
+{
+    "name": "wangpai/firstapp",
+    "description": "Better late than never.",
+    "type": "library",
+    "require": {
+        "php": ">=7.2"
+    },
+  
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wang ZF",
+            "email": "wzf28@sina.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wangpai\\Firstapp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Wangpai\\Firstapp\\Tests\\": "tests/"
+        }
+    }
+}
